@@ -45,6 +45,14 @@
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
         <span href="" class="navbar-brand">< DavidDang /></span>
+        <ul class="d-lg-none nav d-flex align-items-center justify-content-center">
+          <li class="nav-item">
+            <img id="btnFra" class="imgFlag img30" src="./assets/img/fr.png" alt="drapeau français">
+          </li>&nbsp;&nbsp;
+          <li class="nav-item">
+            <img id="btnEng" class="imgFlag img45" src="./assets/img/en.png" alt="drapeau anglais">
+          </li>
+        </ul>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
           <span class="ti-menu"></span>
         </button>
@@ -80,10 +88,10 @@
               <button id="btnEng" class="btn btn-fab btn-theme no-shadow imgEn">En</button>
             </li>
             -->
-            <li class="nav-item">
+            <li class="d-none d-lg-block nav-item">
               <img id="btnFra" class="imgFlag img30" src="./assets/img/fr.png" alt="drapeau français">
             </li>&nbsp;&nbsp;
-            <li class="nav-item">
+            <li class="d-none d-lg-block nav-item">
               <img id="btnEng" class="imgFlag img45" src="./assets/img/en.png" alt="drapeau anglais">
             </li>
           </ul>
@@ -122,7 +130,7 @@
           </span>
           <p class="text-muted">Ayant toujours été attiré par le domaine de la tech, je me suis lancé de défis de me reconvertir professionnellement en tant que développeur web. Après 6 mois de Boot camp intensif, j'ai eu l'occasion de développer des applications métier, site internet et e-commerce.</p>
           <div>
-            <a href="./assets/img/cvFr.pdf" target="_blank" download class="btn btn-theme-outline">Télécharger CV</a>
+            <a href="./assets/img/cvFr.pdf" download role="button" class="btn btn-theme-outline">Télécharger CV</a>
           </div>
         </div>
         <div id='aboutEn' class="col-lg-6 offset-lg-1 wow fadeInRight" style="display:flex; flex-direction:column; justify-content:space-evenly;">
@@ -130,9 +138,9 @@
             <h1 class="fw-light">David DANG</h1>
             <h5 class="fg-theme mb-3">Front-End Web Developer</h5>
           </span>
-          <p class="text-muted">I have always been attracted by the IT field, That why I have challenged myself to retrain professionally as a web developer. After 6 months of an intensive boot camp, I have had the opportunity to develop a business web applications, websites and e-commerce.</p>
+          <p class="text-muted">I have always been attracted by the IT field, That is why I have challenged myself to retrain professionally as a web developer. After 6 months of an intensive boot camp, I have been blessed with the opportunity to develop a business web applications, websites and e-commerce.</p>
           <div>
-            <a href="./assets/img/cvEN.pdf" target="_blank" download class="btn btn-theme-outline">Download CV</a>
+            <a href="./assets/img/cvEN.pdf" download role="button" class="btn btn-theme-outline">Download CV</a>
           </div>
         </div>
       </div>
@@ -460,10 +468,10 @@
             </p>
 
             <p id="app1En" class="mt-4 textJustify">
-              Freebird is an web application of business management ERP (Enterprise resource planning). It offers several modules, such as a sales tool POS (Point of Sales), a warehouse management tool WMS (Warehouse Management System) and a billing tool.<br><br>
+              Freebird is an business management web application ERP (Enterprise resource planning). It offers several modules, such as a sales tool POS (Point of Sales), a warehouse management tool WMS (Warehouse Management System) and a billing tool.<br><br>
 
               Mission : <br>
-              Front Development of various modules of the application and connection of the cash register tool with its peripherals (receipt printer, check printer and display on the client side).
+              Front Development of various modules attributed to the application and connection of the cash register tool with its peripherals (receipt printer, check printer and display on the client side).
             </p>
           </div>
 
@@ -479,7 +487,7 @@
 
             <p id="app2En" class="mt-4 textJustify">
               Dynagrid is a web application whose purpose is the management of sensors positioned on high voltage lines.
-              This tool makes it possible to have visibility on all the sensors installed via a card, returning for each of them data allowing a better maintenance of the high voltage lines.<br><br>
+              This tool enable the visibility on all the sensors installed via a card, returning for each data, allowing a better maintenance of the high voltage lines.<br><br>
 
               Mission : <br>
               Development of the map returning the sensors, their positions and their data, as well as the application dashboard and a weather forecast module.
@@ -618,7 +626,7 @@
   <div class="vg-footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 d-flex justify-content-center">
+        <div class="col-md-6">
           <div>
             <p id="followFr" class="d-none">Suivez-moi</p>
             <p id="followEn">Follow me</p>
@@ -628,7 +636,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 d-flex justify-content-center">
+        <div class="col-md-6">
           <div>
             <p id="contactFr" class="d-none">Contactez-moi</p>
             <p id="contactEn">Contact me</p>
