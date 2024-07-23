@@ -89,10 +89,10 @@
             </li>
             -->
             <li class="d-none d-lg-block nav-item">
-              <img id="btnFra" class="imgFlag img30" src="./assets/img/fr.png" alt="drapeau français">
+              <img id="btnFraDesktop" class="imgFlag img30" src="./assets/img/fr.png" alt="drapeau français">
             </li>&nbsp;&nbsp;
             <li class="d-none d-lg-block nav-item">
-              <img id="btnEng" class="imgFlag img45" src="./assets/img/en.png" alt="drapeau anglais">
+              <img id="btnEngDesktop" class="imgFlag img45" src="./assets/img/en.png" alt="drapeau anglais">
             </li>
           </ul>
         </div>
@@ -692,6 +692,42 @@
     const btnFra = document.getElementById('btnFra');
     const btnEng = document.getElementById('btnEng');
 
+    const btnFraDesktop = document.getElementById('btnFraDesktop');
+    const btnEngDesktop = document.getElementById('btnEngDesktop');
+
+    document.getElementById('btnFraDesktop').onclick = ()=>{
+      btnFraDesktop.classList.remove('img30');
+      btnFraDesktop.classList.add('img45');
+
+      btnEngDesktop.classList.remove('img45');
+      btnEngDesktop.classList.add('img30');
+      
+
+      frElements.forEach(element => {
+        element.classList.remove('d-none');
+      });
+
+      enElements.forEach(element => {
+        element.classList.add('d-none');
+      });
+    };
+
+    document.getElementById('btnEngDesktop').onclick = ()=>{
+      btnEngDesktop.classList.remove('img30');
+      btnEngDesktop.classList.add('img45');
+
+      btnFraDesktop.classList.remove('img45');
+      btnFraDesktop.classList.add('img30');
+
+      enElements.forEach(element => {
+        element.classList.remove('d-none');
+      });
+
+      frElements.forEach(element => {
+        element.classList.add('d-none');
+      });
+    };
+
     document.getElementById('btnFra').onclick = ()=>{
       btnFra.classList.remove('img30');
       btnFra.classList.add('img45');
@@ -725,33 +761,33 @@
       });
     };
 
-    document.getElementById('loadEn').onclick = ()=>{
-      const secondList = document.getElementById('secondPartSite');
-      const btnElLoadEn = document.getElementById('btnLoadEn');
-      console.log('second',secondList)  
-      console.log('btn',btnElLoadEn) 
+    // document.getElementById('loadEn').onclick = ()=>{
+    //   const secondList = document.getElementById('secondPartSite');
+    //   const btnElLoadEn = document.getElementById('btnLoadEn');
+    //   console.log('second',secondList)  
+    //   console.log('btn',btnElLoadEn) 
 
-      if(btnElLoadEn.textContent == 'Load more'){
-        btnElLoadEn.textContent = "Load less";
-        secondList.classList.remove('d-none');
-      }else{
-        btnElLoadEn.textContent = "Load more";
-        secondList.classList.add('d-none');
-      };
+    //   if(btnElLoadEn.textContent == 'Load more'){
+    //     btnElLoadEn.textContent = "Load less";
+    //     secondList.classList.remove('d-none');
+    //   }else{
+    //     btnElLoadEn.textContent = "Load more";
+    //     secondList.classList.add('d-none');
+    //   };
       
-    };
+    // };
 
-    document.getElementById('loadFr').onclick = ()=>{
-      const secondList = document.getElementById('secondPartSite');
-      const btnElLoadFr = document.getElementById('btnLoadfR');
+    // document.getElementById('loadFr').onclick = ()=>{
+    //   const secondList = document.getElementById('secondPartSite');
+    //   const btnElLoadFr = document.getElementById('btnLoadfR');
 
-      if(btnElLoadFr == 'Afficher plus'){
-        secondList.classList.remove('d-none');
-      }else{
-        secondList.classList.add('d-none');
-      };
+    //   if(btnElLoadFr == 'Afficher plus'){
+    //     secondList.classList.remove('d-none');
+    //   }else{
+    //     secondList.classList.add('d-none');
+    //   };
       
-    };
+    // };
     
   </script>
   
