@@ -27,6 +27,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/vendor/fancybox/css/jquery.fancybox.min.css">
   
   <link rel="stylesheet" type="text/css" href="./assets/css/virtual.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/perso.css">
   
   <link rel="stylesheet" type="text/css" href="./assets/css/topbar.virtual.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -103,6 +104,7 @@
       <h5 class="fw-normal customFont" style="font-size:1.3rem">Bienvenue</h5>
       <h1 class="fw-light mb-3 customFont">Je suis <b class="fg-theme"> David</b> DANG</h1>
       <div class="customFont" style="font-size:1.3rem; color:white;">Développeur Web Front-End</div>
+      <a href="#contactme" class="btn btn-theme mt-3" data-animate="scrolling">Contactez-moi</a>
     </div> <!-- End Caption header -->
 
     <!-- Caption header -->
@@ -110,6 +112,7 @@
       <h5 class="fw-normal customFont" style="font-size:1.3rem">Welcome</h5>
       <h1 class="fw-light mb-3 customFont">I'm <b class="fg-theme"> David</b> DANG</h1>
       <div class="customFont" style="font-size:1.3rem; color:white;">Front-End Web Developer</div>
+      <a href="#contactme" class="btn btn-theme mt-3" data-animate="scrolling">Contact me</a>
     </div> <!-- End Caption header -->
 
     <div class="floating-button"><span class="ti-mouse"></span></div>
@@ -128,7 +131,7 @@
             <h1 class="fw-light">David DANG</h1>
             <h5 class="fg-theme mb-3">Dévelopeur Web Front-End</h5>
           </span>
-          <p class="text-muted">Ayant toujours été attiré par le domaine de la tech, je me suis lancé le défis de me reconvertir professionnellement en tant que développeur web. Après 6 mois de Boot camp intensif, j'ai eu l'occasion de développer des applications métier, des sites internet et des e-commerces.</p>
+          <p class="text-muted">Ayant toujours été attiré par le domaine de la tech, je me suis lancé le défi de me reconvertir professionnellement en tant que développeur web. Après 6 mois de Boot camp intensif, j'ai eu l'occasion de développer des applications métier, des sites internet et des e-commerces.</p>
           <!-- <div>
             <a href="./assets/img/cv_fr.pdf" download="cv_fr.pdf" class="btn btn-theme-outline">Télécharger CV</a>
           </div> -->
@@ -149,58 +152,95 @@
       <h1 id="skillFr" class="text-center fw-normal wow fadeIn d-none">Mes compétences</h1>
       <h1 id="skillEn" class="text-center fw-normal wow fadeIn">My Skills</h1>
       <div class="row py-3">
-        <div class="col-md-6">
-          <div class="px-lg-3">
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">JavaScript React</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="col-12 col-sm-6">
+          <div class="row rowSpace mb-3">
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="mx-auto mb-1" style="width: 37px;">
+                  <img src="./assets/img/jssm.png" class="card-img-top" alt="logo js">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  JavaScript
+                </div>
               </div>
             </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Node Js</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">HTML5</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">CSS3</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="mx-auto mb-1" style="width: 45px;">
+                  <img src="./assets/img/react.png" class="card-img-top" alt="logo react js">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  React Js
+                </div>
               </div>
             </div>
           </div>
+          <div class="row rowSpace">
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="imgcontainer mx-auto mb-1" >
+                  <img src="./assets/img/node.png" class="card-img-top" alt="logo node js">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  Node Js
+                </div>
+              </div>
+            </div>
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="mx-auto mb-1" style="width: 45px;">
+                  <img src="./assets/img/html.png" class="card-img-top" alt="logo html">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  HTML5
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
-        <div class="col-md-6">
-          <div class="px-lg-3">
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Bootstrap</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="col-12 col-sm-6">
+          <div class="row rowSpace mb-3">
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="imgcontainer mx-auto mb-1" >
+                  <img src="./assets/img/css.png" class="card-img-top" alt="logo css">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  CSS3
+                </div>
               </div>
             </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Prestashop</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="mx-auto mb-1" style="width: 45px;">
+                  <img src="./assets/img/bootstrap.png" class="card-img-top" alt="logo bootstrap">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  Bootstrap
+                </div>
               </div>
             </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Redux</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row rowSpace">
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="imgcontainer mx-auto mb-1" >
+                  <img src="./assets/img/presta.png" class="card-img-top" alt="logo prestashop">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  Prestashop
+                </div>
               </div>
             </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">postgreSQL</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="bg-black rounded blocTech mb-2">
+              <div class="p-3">
+                <div class="mx-auto mb-1" style="width: 45px;">
+                  <img src="./assets/img/scss.png" class="card-img-top" alt="logo scss">
+                </div>
+                <div class="text-center fw-bold text-white fs-tech-title">
+                  SCSS
+                </div>
               </div>
             </div>
           </div>
@@ -620,6 +660,12 @@
       -->
     </div>
   </div> <!-- End Portfolio page -->
+
+  <h1 id="contactFr" class="text-center fw-normal wow fadeInUp d-none">Contactez-moi</h1>
+  <h1 id="contactEn" class="text-center fw-normal wow fadeInUp">Contact me</h1>
+  <div id="contactme" class="container d-flex justify-content-center rounded mb-3" style="background-color:#e5e5e5">
+    <iframe class="p-3" style="height: 1000px;" src="https://docs.google.com/forms/d/e/1FAIpQLScrLPsBkrSUIKWFonWNvDW-SEDZXiwHkJj7PNdmPcD3IgjDyA/viewform?embedded=true" width="640" height="821" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+  </div>
   
 
   <!-- Footer -->
@@ -642,7 +688,7 @@
             <p id="contactEn">Contact me</p>
             <hr class="divider">
             <ul class="list-unstyled">
-              <li>d.dang@hotmail.fr</li>
+              <!-- <li>d.dang@hotmail.fr</li>+ -->
               <li>+687 910530</li>
 
             </ul>
