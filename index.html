@@ -103,7 +103,7 @@
     <div id='headerFr' class="caption-header text-center wow zoomInDown d-none">
       <h5 class="fw-normal customFont" style="font-size:1.3rem">Bienvenue</h5>
       <h1 class="fw-light mb-3 customFont">Je suis <b class="fg-theme"> David</b> DANG</h1>
-      <div class="customFont" style="font-size:1.3rem; color:white;">Développeur Web Front-End</div>
+      <div class="customFont" style="font-size:1.3rem; color:white;">Développeur React JS / Java Spring Boot</div>
       <a href="#contactme" class="btn btn-theme mt-3" data-animate="scrolling">Contactez-moi</a>
     </div> <!-- End Caption header -->
 
@@ -111,7 +111,7 @@
     <div id='headerEn' class="caption-header text-center wow zoomInDown ">
       <h5 class="fw-normal customFont" style="font-size:1.3rem">Welcome</h5>
       <h1 class="fw-light mb-3 customFont">I'm <b class="fg-theme"> David</b> DANG</h1>
-      <div class="customFont" style="font-size:1.3rem; color:white;">Front-End Web Developer</div>
+      <div class="customFont" style="font-size:1.3rem; color:white;">React JS / Java Spring Boot Developer</div>
       <a href="#contactme" class="btn btn-theme mt-3" data-animate="scrolling">Contact me</a>
     </div> <!-- End Caption header -->
 
@@ -129,7 +129,7 @@
         <div id='aboutFr' class="d-none col-lg-6 offset-lg-1 wow fadeInRight" style="display:flex; flex-direction:column; justify-content:center;">
           <span>
             <h1 class="fw-light">David DANG</h1>
-            <h5 class="fg-theme mb-3">Dévelopeur Web React JS / Java Spring Boot</h5>
+            <h5 class="fg-theme mb-3">Dévelopeur React JS / Java Spring Boot</h5>
           </span>
           <p class="text-muted">Ayant toujours été attiré par le domaine de la tech, je me suis lancé le défi de me reconvertir professionnellement en tant que développeur web.<br>Après 6 mois de Boot camp intensif, j'ai eu l'opportunité de codévelopper une application web de type ERP (Enterprise Resource Planning), des sites internet et des e-commerces.</p>
           <div>
@@ -139,7 +139,7 @@
         <div id='aboutEn' class="col-lg-6 offset-lg-1 wow fadeInRight" style="display:flex; flex-direction:column; justify-content:center;">
           <span>
             <h1 class="fw-light">David DANG</h1>
-            <h5 class="fg-theme mb-3">React JS / Java Spring Boot Web Developer</h5>
+            <h5 class="fg-theme mb-3">React JS / Java Spring Boot Developer</h5>
           </span>
           <p class="text-muted">I have always been attracted by the IT field, That is why I have challenged myself to retrain professionally as a web developer.<br>After 6 months of an intensive boot camp, I have been blessed with the opportunity to co-develop a business web application of the ERP type (Enterprise Resource Planning), websites and e-commerces.</p>
           <div>
@@ -476,48 +476,314 @@
             </div>
             
             <p id="app1Fr" class="mt-4 textJustify d-none">
-              Freebird est une application web de gestion d'entreprise de type ERP (Enterprise Resource Planning). Elle propose plusieurs modules, tels qu'un outil de vente POS (Point of Sales), un outil de gestion des entrepôts WMS (Warehouse Management System) et un outil de facturation.<br><br>
+              Freebird est une application web de gestion d’entreprise de type ERP (Enterprise Resource Planning). Elle intègre plusieurs modules métiers, notamment :
 
-              Mission : <br>
-              Développement du front des différents modules de l'application :<br><br>
+              <ul id="app1Ul1Fr" class="list-unstyled mb-3 d-none">
+                <li class="mb-2 text-muted">
+                  <i class="ti-check-box text-success me-2"></i>
+                  Un outil de vente POS (Point of Sale)
+                </li>
+                <li class="mb-2 text-muted">
+                  <i class="ti-check-box text-success me-2"></i>
+                  Un système de gestion d’entrepôts WMS (Warehouse Management System)
+                </li>
+                <li class="mb-0 text-muted">
+                  <i class="ti-check-box text-success me-2"></i>
+                  Un module de facturation complet
+                </li>
+              </ul>
 
-              - Module de configuration : Configuration des (commerces, e-commerces et docks), restrictions utilisateurs,...<br><br>
+              <h5 id="app1MissionFr" class="card-title text-center d-none mb-4" style="font-size: 1.2rem">
+                Mission : Développement du front-end des différents modules de l’application, incluant :
+              </h5>
 
-              - Module ERP : Gestion des commandes fournisseurs, gestion des articles et des stocks articles, historique des ventes, gestion de la clientèle et de la fidélité,...<br><br>
+              <div class="d-flex mb-4 d-none">
+                <div id="app1Ul2Fr" class="d-none" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    Module de Configuration
+                  </h5>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Configuration des commerces, e-commerces et docks
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Gestion des restrictions et rôles utilisateurs
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Paramétrage global de l'application
+                    </li>
+                  </ul>
+                </div>
+                <div id="app1Ul3Fr" class="d-none" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    Module ERP
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">Gestion complète des flux internes/externes:</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Commandes fournisseurs
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Gestion des articles et des stocks
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Historique des ventes
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Gestion clients et fidélité
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-              - Module Facturation : Création de documents (devis, facture, avoir, bon de livraison,...), tableau de bord, historique de documents, visionneuse pdf des documents,...<br><br>
+              <div class="d-flex mb-4">
+                <div id="app1Ul4Fr" class="d-none" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    Module de Facturation
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">Conception et gestion des documents commerciaux :</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Création de devis, factures, avoirs, bons de livraison, etc.
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Tableau de bord dédié
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Historique des documents
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Visionneuse PDF intégrée
+                    </li>
+                  </ul>
+                </div>
+                <div id="app1Ul5Fr" class="d-none" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    Module POS (Point of Sale)
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">Développement du processus de vente et intégration matérielle :</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Connexion aux périphériques (imprimante ticket, imprimante chèque, afficheur client)
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Gestion de l’historique des ventes et des clients
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Gestion des ordres de transfert entre magasins et docks
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-              - Module POS : Développement du processus de vente, connexion de l'outil de caisse avec ses périphériques (imprimante ticket, imprimante chèque et afficheur côté client), historique des ventes, historique client, gestion des ordres de transfert entre magasin(s) et dock(s),...<br><br>
-
-              - Module WMS : Affichage du détail des zones de stockage, collecte des (bons de commande et ordres de transfert), réception des (commandes fournisseurs et ordres de transfert), création de listes d'articles,...            
+              <div class="d-flex mb-4">
+                <div id="app1Ul6Fr" class="d-none" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    Module WMS (Warehouse Management System)
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">Outils dédiés à la gestion d’entrepôts :</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Affichage des zones et emplacements de stockage
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Collecte des bons de commande et ordres de transfert
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Réception des commandes fournisseurs et transferts
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Création et gestion de listes d’articles
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Création et gestion des inventaires
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </p>
 
             <p id="app1En" class="mt-4 textJustify">
-              Freebird is a business management web application of the ERP type (Enterprise resource planning). It offers several modules, such as a sales tool POS (Point of Sales), a warehouse management tool WMS (Warehouse Management System) and a billing tool.<br><br>
+              Freebird is a web-based ERP (Enterprise Resource Planning) application designed for comprehensive business management. It includes several key business modules, such as:
 
-              Mission : <br>
-              Front Development of various modules attributed to the application :<br><br>
+              <ul id="app1Ul1En" class="list-unstyled mb-3 ">
+                <li class="mb-2 text-muted">
+                  <i class="ti-check-box text-success me-2"></i>
+                  A POS (Point of Sale) system
+                </li>
+                <li class="mb-2 text-muted">
+                  <i class="ti-check-box text-success me-2"></i>
+                  A WMS (Warehouse Management System) for warehouse operations
+                </li>
+                <li class="mb-0 text-muted">
+                  <i class="ti-check-box text-success me-2"></i>
+                  A complete billing and invoicing module
+                </li>
+              </ul>
 
-              - Configuration module : (Shops, e-commerces and docks) configuration , users restrictions,...<br><br>
+              <h5 id="app1MissionEn" class="card-title text-center  mb-4" style="font-size: 1.2rem">
+                Mission : Front-end development across the different modules of the application, including:
+              </h5>
 
-              - ERP module : Suppliers orders management, items and items stock management, sales historical, customers and loyalty management,...<br><br>
+              <div class="d-flex mb-4">
+                <div id="app1Ul2En" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    Configuration Module
+                  </h5>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Configuration of stores, e-commerce sites, and docks
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      User roles and permissions management
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Global application settings
+                    </li>
+                  </ul>
+                </div>
+                <div id="app1Ul3En" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    ERP Module
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">End-to-end management of internal/external workflows, including:</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Supplier orders
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Product and stock management
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Sales history
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Sustomer management and loyalty programs
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-              - Invoicing module : Documents management (quotation, invoice, credit note, delivery note,...), dashboard, documents historical, pdf viewer for the documents,...<br><br>
+              <div class="d-flex mb-4">
+                <div id="app1Ul4En" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    Billing Module
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">Design and management of commercial documents:</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Creation of quotes, invoices, credit notes, delivery notes, etc.
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Dedicated dashboard
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Document history
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Integrated PDF viewer
+                    </li>
+                  </ul>
+                </div>
+                <div id="app1Ul5En" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    POS (Point of Sale) Module
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">Development of the sales process and hardware integration:</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Connection with peripherals (receipt printer, check printer, customer display)
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Sales and customer history management
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Mmanagement of transfer orders between stores and docks
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-              - POS module : Development of the sale process, connection of the cash register tool with its peripherals (receipt printer, check printer and display on the client side), sales historical, customers historical, management of the transfer orders between shop(s) and dock(s),...<br><br>
-
-              - WMS module : Display of storage area details, collection of (sales orders and transfer orders), receipt of (suppliers purchase orders and transfer orders), creation of items list,...
+              <div class="d-flex mb-4">
+                <div id="app1Ul6En" style="width: 50%">
+                  <h5 class="card-title mb-3" style="font-size: 1.2rem">
+                    WMS (Warehouse Management System) Module
+                  </h5>
+                  <p class="fg-theme" style="margin: 0">Tools dedicated to warehouse operations:</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Display of storage areas and locations
+                    </li>
+                    <li class="mb-2 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Retrieval of purchase orders and transfer orders
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Receipt of supplier orders and transfers
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Creation and management of item lists
+                    </li>
+                    <li class="mb-0 text-muted">
+                      <i class="ti-check-box text-success me-2"></i>
+                      Creation and management of iventories
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </p>
           </div>
 
           <div class="tab-pane fade" id="dynagrid" role="tabpanel" aria-labelledby="dynagrid-tab">
             <h4 class="mt-3 text-center">Dynagrid</h4>
             <p id="app2Fr" class="mt-4 textJustify d-none">
-              Dynagrid est une application web dont le but est la gestion de capteurs positionnés sur des lignes à haute tension.
-              Cet outil permet d'avoir une visibilité sur l'ensemble des capteurs installés via une carte, retournant pour chacun d'eux des données permettant une meilleure maintenance des lignes à haute tension.<br><br>
+              Dynagrid est une application web dédiée à la gestion de capteurs installés sur des lignes à haute tension.<br>
+              Elle offre une visibilité complète sur l’ensemble des capteurs déployés grâce à une carte interactive, permettant de consulter pour chacun :<br>
+              - Leur positionnement précis<br>
+              - Les données relevées en temps réel<br>
+              - Des informations facilitant la maintenance et la supervision des infrastructures<br>
 
-              Mission : <br>
-              Développement de la carte retournant les capteurs, leurs positionnements et leurs données, ainsi que le tableau de bord de l'application et un module de prévision météorologique.
+              Mission :<br>
+              Développement de plusieurs modules clés de l’application, notamment :<br>
+              - La carte interactive affichant les capteurs, leur localisation et leurs données associées<br>
+              - Le tableau de bord offrant une vue d'ensemble des indicateurs essentiels<br>
+              - Un module de prévisions météorologiques pour anticiper les risques liés aux conditions climatiques<br>
             </p>
 
             <p id="app2En" class="mt-4 textJustify">
@@ -534,11 +800,22 @@
               <img src="./assets/img/logo/sobloo.webp" alt="logo freebird" style="width: 130px">
             </div>
             <p id="app3Fr" class="mt-4 textJustify d-none">
-              So'Bloo est une application web dont le but est la gestion de capteurs positionnés sur des lignes à haute tension.
-              Cet outil permet d'avoir une visibilité sur l'ensemble des capteurs installés via une carte, retournant pour chacun d'eux des données permettant une meilleure maintenance des lignes à haute tension.<br><br>
+              So’Bloo est une application web de gestion d’entreprise de type ERP (Enterprise Resource Planning). Elle propose un ensemble complet de modules permettant d’optimiser et centraliser les processus métier :<br>
 
-              Mission : <br>
-              Développement de la carte retournant les capteurs, leurs positionnements et leurs données, ainsi que le tableau de bord de l'application et un module de prévision météorologique.
+              - Gestion commerciale (clients, devis, commandes, facturation)<br>
+              - Gestion des stocks<br>
+              - Pré-comptabilité<br>
+              - Gestion multi-sociétés<br>
+              - SAV & interventions<br>
+              - Tableaux de bord & Business Intelligence<br><br>
+
+              Mission :<br>
+              - Participation à la maintenance et à l’évolution de l’application. Mes responsabilités incluent :<br>
+              - La correction de bugs et l’amélioration de la stabilité<br>
+              - Le développement de nouvelles fonctionnalités (mineures à intermédiaires)<br>
+              - L’optimisation de certains modules existants<br>
+              - La réalisation d’actions SQL en production (mises à jour ponctuelles, corrections de données, ajustements suite à incidents) dans un cadre sécurisé et contrôlé<br>
+              - La participation aux échanges techniques et à la définition de solutions<br>
             </p>
 
             <p id="app3En" class="mt-4 textJustify">
